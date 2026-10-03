@@ -1,0 +1,29 @@
+name: matrix_desktop
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  equatable: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_rust_bridge: 2.13.0
+  flutter_secure_storage: ^11.2.0
+  get: ^4.7.3
+  matrix_native:
+    path: rust_builder
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.5
+  very_good_analysis: ^10.2.0
+
+flutter:
+  uses-material-design: true

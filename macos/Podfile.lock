@@ -1,0 +1,29 @@
+PODS:
+  - flutter_secure_storage_darwin (10.0.0):
+    - Flutter
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - matrix_native (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - flutter_secure_storage_darwin (from `Flutter/ephemeral/.symlinks/plugins/flutter_secure_storage_darwin/darwin`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - matrix_native (from `Flutter/ephemeral/.symlinks/plugins/matrix_native/macos`)
+
+EXTERNAL SOURCES:
+  flutter_secure_storage_darwin:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_secure_storage_darwin/darwin
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  matrix_native:
+    :path: Flutter/ephemeral/.symlinks/plugins/matrix_native/macos
+
+SPEC CHECKSUMS:
+  flutter_secure_storage_darwin: 46e401699982ee74142909676535e0f6a7321e58
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+  matrix_native: db5f9cbc08e8846d82f94583580b56a324ac7eeb
+
+PODFILE CHECKSUM: b38f43bf64907f42d14e420cedd0e8985073a973
+
+COCOAPODS: 1.16.2
